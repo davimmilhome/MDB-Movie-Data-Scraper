@@ -14,8 +14,6 @@ O programa principal consulta a API do TMDB para obter informações sobre filme
      - Execute o arquivo tmdb_movie_scrapper para iniciar o processo de extração de dados. Defina o n° (n) de registros que você quer coletar, default n = 300
      - Aguarde até que todos os filmes sejam processados e os dados sejam salvos no arquivo output/data.csv.
 
-Execute os testes unitários com o comando python -m  pytest -v -s -m output, teste de integridade dos dados. <br/> <br/>
-
 ## Tecnologias utilizadas
      - bibliotecas built-in
      - tmdbsimple: Uma biblioteca Python para interagir com a API do TMDB.
